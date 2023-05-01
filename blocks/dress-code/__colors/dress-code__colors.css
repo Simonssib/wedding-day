@@ -1,0 +1,9 @@
+.dress-code__colors {
+    height: 100px;
+    width: 310px;
+    margin: 40px auto 40px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}

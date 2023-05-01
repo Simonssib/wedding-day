@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background-image: url(../../images/intro.jpeg);
+    background-size: cover;
+    max-width: 430px;
+    height: 642px;
+}

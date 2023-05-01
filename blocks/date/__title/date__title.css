@@ -1,0 +1,7 @@
+.date__title {
+    font-size: 80px;
+    font-family: 'Serifiqo';
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    max-width: 800px;
+}

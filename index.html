@@ -1,49 +1,97 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Евдокия и Симон</title>
-        <link rel="stylesheet" href="./pages/index.css">
-    </head>
-    <body>
-        <div class="page">
-            <header class="header">
-                <nav class="header__nav">
-                    <a class="header__nav-item">Дата и место</a>
-                    <a class="header__nav-item">Тайминг</a>
-                    <a class="header__nav-item">Дресс-код</a>
-                </nav>
-                <div class="header__image"></div>
-                <nav class="header__nav">
-                    <a class="header__nav-item">Карта</a>
-                    <a class="header__nav-item">Подтверждение</a>
-                    <a class="header__nav-item">Контакты</a>
-                </nav>
-            </header>
-            <main>
-                <section>
-                    Приглашение на свадьбу
-                </section>
-                <section>
-                    Обратный таймер
-                </section>
-                <section>
-                    Про нас
-                </section>
-                <section>
-                    Тайминги вечера
-                </section>
-                <section>
-                    Дресскод
-                </section>
-                <section>
-                    Анкета
-                </section>
-            </main>
-            <footer>
-                Футер сайта
-            </footer>
-        </div>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Евдокия и Симон</title>
+    <link type="image/x-icon" href="./images/free-icon-wedding-rings-7626777.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="./images/free-icon-wedding-rings-7626777.png" rel="icon">
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body>
+    <div class="page">
+        <header class="header">
+            <audio controls>
+                <source src="./music/Ed Sheeran & Beyonce - Perfect Duet.mp3" type="audio/ogg; codecs=vorbis">
+                <source src="./music/Ed Sheeran & Beyonce - Perfect Duet.mp3" type="audio/mpeg">
+                    Тег audio не поддерживается вашим браузером. 
+            </audio>
+            <div class="header__data">17</div>
+            <div class="header__data">06</div>
+            <div class="header__data">23</div>
+            <h1 class="header__title">Evdokia Simon</h1>
+        </header>
+        <main>
+            <section class='invite'>
+                <h1 class="invite__title">Дорогие родные и друзья!</h1>
+                <p class="invite__text">Хотим чтобы вы разделили с нами радость и были на торжестве в самый лучший и трогательный день нашей жизни</p>
+                <h1 class="invite__title">17 июня 2023 года</h1>
+                <p class="invite__text">В банкетном зале “БЕЛЫЕ НОЧИ” по адресу г. Якутск, ул. Джержинского 69</p>
+                <p class="invite__text">Для вашего удобства мы подготовили карту. Надеемся, что вы легко найдете место проведения свадьбы и порадуете нас своим присутствием.</p>
+            </section>
+            <section class="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A87ee1df25509a248ca2bc12e498e920e335e27707c3bcb6d8d9c1a60e2af903d&amp;source=constructor" width="430" height="380" frameborder="0"></iframe></section>
+
+            <section class='reverse'>
+            </section>
+
+
+            <section class="program">
+                <h2 class="program__title">Программа дня</h2>
+                <div class="program__wrapper">
+                    <img src="./images/free-icon-arch-721925.png" alt="Сбор гостей" class="program__icon">
+                    <p class="program__text">17.00 <br> Сбор гостей</p>
+                    <img src="./images/free-icon-couple-2457612.png" alt="Церемония" class="program__icon">
+                    <p class="program__text">18.00 <br> Церемония бракосочетания</p>
+                    <img src="./images/free-icon-banquet-4156252.png" alt="Банкет" class="program__icon">
+                    <p class="program__text">18.30 <br> Приглашение на праздничный стол</p>
+                    <img src="./images/free-icon-cake-5449689.png" alt="Торт" class="program__icon">
+                    <p class="program__text">21.00 <br> Торт молодоженов</p>
+                    <img src="./images/free-icon-wedding-860957.png" alt="Вечер" class="program__icon">
+                    <p class="program__text">21.15 <br> Вечерняя программа</p>
+                    <img src="./images/free-icon-car-6526439.png" alt="Завершение" class="program__icon">
+                    <p class="program__text">23.00 <br> Завершение дня</p>
+
+                </div>
+            </section>
+
+            <div class="sim-slider">
+                <ul class="sim-slider-list">
+                    <li><img class="img" src="screen.gif" alt="screen"></li>
+                    <!-- это экран -->
+                    <li class="sim-slider-element"><img class="img" src="img1.jpg" alt="1"></li>
+                    <li class="sim-slider-element"><img class="img" src="img2.jpg" alt="2"></li>
+                    <li class="sim-slider-element"><img class="img" src="imgN.jpg" alt="3"></li>
+                </ul>
+                <div class="sim-slider-arrow-left"></div>
+                <div class="sim-slider-arrow-right"></div>
+                <div class="sim-slider-dots"></div>
+            </div>
+
+            <section class="dress-code">
+                <h2 class="dress-code__title">Dress-code</h2>
+                <p class="dress-code__text">Нам будет очень приятно если вы поддержите цветовую гамму торжества и выберете наряды в соответствии с цветовой палитрой нашей свадьбы</p>
+                <div>
+                    <ul class="dress-code__colors">
+                        <li class="dress-code__color_1"></li>
+                        <li class="dress-code__color_2"></li>
+                        <li class="dress-code__color_3"></li>
+                        <li class="dress-code__color_4"></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="wishes">
+                <h2 class="wishes__title">Пожелания</h2>
+                <p class="wishes__text">Главное для нас ваше внимание, а радость доставит любой подарок в конверте!</p>
+                <p class="wishes__text">Очень надеемся, что у Вас будет возможность оставить детей на этот вечер под присмотром и полностью погрузиться в атмосферу праздника вместе с нами!</p>
+            </section>
+            <script src="//megatimer.ru/get/d3fa179cc1226edfd43f70661df6f93d.js"></script>
+            <section class="form">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-WFd-GhAEBIdpbarBj-0CxAOR8FvA3mqvboKfdmFmtX2p-g/viewform?embedded=true" width="320" height="1400" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
+            </section>
+        </main>
+    </div>
+</body>
+
 </html>
