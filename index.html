@@ -13,11 +13,11 @@
 <body>
     <div class="page">
         <header class="header">
-            <audio controls>
-                <source src="./music/Ed Sheeran & Beyonce - Perfect Duet.mp3" type="audio/ogg; codecs=vorbis">
-                <source src="./music/Ed Sheeran & Beyonce - Perfect Duet.mp3" type="audio/mpeg">
-                    Тег audio не поддерживается вашим браузером. 
-            </audio>
+            <div class="header__music">
+                <audio src="./music/Ed Sheeran & Beyonce - Perfect Duet.mp3" id="audio"></audio>
+                <button  type="button" class="header__button"></button>
+            </div>
+        
             <div class="header__data">17</div>
             <div class="header__data">06</div>
             <div class="header__data">23</div>
@@ -26,16 +26,15 @@
         <main>
             <section class='invite'>
                 <h1 class="invite__title">Дорогие родные и друзья!</h1>
-                <p class="invite__text">Хотим чтобы вы разделили с нами радость и были на торжестве в самый лучший и трогательный день нашей жизни</p>
+                <p class="invite__text">С большой радостью приглашаем вас на нашу свадьбу! Мы объединим наши сердца и обменяемся клятвами любви и преданности друг другу.</p>
                 <h1 class="invite__title">17 июня 2023 года</h1>
-                <p class="invite__text">В банкетном зале “БЕЛЫЕ НОЧИ” по адресу г. Якутск, ул. Джержинского 69</p>
+                <p class="invite__text">Свадьба состоится в банкетном зале "Белые ночи", где мы создадим незабываемую атмосферу радости, счастья и веселья. На нашей свадьбе будет много традиционных и современных элементов, которые сделают этот день особенным и незабываемым. Мы будем рады видеть всех наших друзей и близких, чтобы разделить этот знаменательный день с нами.</p>
                 <p class="invite__text">Для вашего удобства мы подготовили карту. Надеемся, что вы легко найдете место проведения свадьбы и порадуете нас своим присутствием.</p>
             </section>
             <section class="map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A87ee1df25509a248ca2bc12e498e920e335e27707c3bcb6d8d9c1a60e2af903d&amp;source=constructor" width="430" height="380" frameborder="0"></iframe></section>
 
             <section class='reverse'>
             </section>
-
 
             <section class="program">
                 <h2 class="program__title">Программа дня</h2>
@@ -58,11 +57,9 @@
 
             <div class="sim-slider">
                 <ul class="sim-slider-list">
-                    <li><img class="img" src="screen.gif" alt="screen"></li>
-                    <!-- это экран -->
-                    <li class="sim-slider-element"><img class="img" src="img1.jpg" alt="1"></li>
-                    <li class="sim-slider-element"><img class="img" src="img2.jpg" alt="2"></li>
-                    <li class="sim-slider-element"><img class="img" src="imgN.jpg" alt="3"></li>
+                    <li class="sim-slider-element"><img class="img" src="./images/dombrovskaya.sasha-78.jpg" alt="1"></li>
+                    <li class="sim-slider-element"><img class="img" src="./images/intro.jpeg" alt="2"></li>
+                    <li class="sim-slider-element"><img class="img" src="./images/9A8132FB-7D97-428F-8199-133BF2C8B827.jpeg" alt="3"></li>
                 </ul>
                 <div class="sim-slider-arrow-left"></div>
                 <div class="sim-slider-arrow-right"></div>
@@ -86,12 +83,21 @@
                 <p class="wishes__text">Главное для нас ваше внимание, а радость доставит любой подарок в конверте!</p>
                 <p class="wishes__text">Очень надеемся, что у Вас будет возможность оставить детей на этот вечер под присмотром и полностью погрузиться в атмосферу праздника вместе с нами!</p>
             </section>
-            <script src="//megatimer.ru/get/d3fa179cc1226edfd43f70661df6f93d.js"></script>
+            <section class="contacts">
+                <h2 class="contacts__title">Организаторы</h2>
+                <p class="contacts__text">Друзья, по всем вопросам в день мероприятия, можете связаться с нашим организотором с Валерией, и задать любой интересующий вопрос</p>
+            </section>
+            <section class="timer">
+                <p class="contacts__text"> До свадьбы осталось </p>
+            </section>
             <section class="form">
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf-WFd-GhAEBIdpbarBj-0CxAOR8FvA3mqvboKfdmFmtX2p-g/viewform?embedded=true" width="320" height="1400" frameborder="0" marginheight="0" marginwidth="0">Загрузка…</iframe>
             </section>
         </main>
     </div>
+    <script src="./scripts/player.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script>new Sim()</script>
 </body>
 
 </html>

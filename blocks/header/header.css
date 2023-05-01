@@ -9,3 +9,23 @@
     max-width: 430px;
     height: 642px;
 }
+
+.header__music {
+    width: 50px;
+    height: 50px;
+    margin: 40px 20px 0 0;
+}
+
+.header__button {
+    width: 100%;
+    height: 100%;
+    background: no-repeat url(../../images/play.svg);
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    background-position: center;
+}
+
+.played {
+    background: no-repeat url(../../images/pause.svg);
+}

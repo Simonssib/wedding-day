@@ -33,3 +33,8 @@
     font-family: 'Farloxy';
     src: url(./Farloxy.ttf);
 }
+
+@font-face {
+    font-family: 'Ceremonious';
+    src: url(./ceremoniousthree.ttf);
+}
