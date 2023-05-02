@@ -1,17 +1,18 @@
 /* General styles */
+
 .sim-slider {
     position: relative;
     height: 645px;
-  }
-  
-  .sim-slider-list {
+}
+
+.sim-slider-list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     position: relative;
-  }
-  
-  .sim-slider-element {
+}
+
+.sim-slider-element {
     width: 100%;
     transition: opacity 1s ease-in;
     opacity: 0;
@@ -20,46 +21,58 @@
     left: 0;
     top: 0;
     display: block;
-  }
+}
 
-  .img {
+.img {
     width: 100%;
-  }
-  
-  /* Navigation item styles */
-  div.sim-slider-arrow-left,
-  div.sim-slider-arrow-right {
+}
+
+
+/* Navigation item styles */
+
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
     width: 22px;
     height: 40px;
     position: absolute;
     cursor: pointer;
     opacity: 0.6;
     z-index: 4;
-  }
-  
-  div.sim-slider-arrow-left {
+}
+
+.sim-slider-arrow-left {
+    width: 30px;
+    height: 50px;
     left: 10px;
     top: 40%;
     display: block;
-    background: url("../../images/налево.svg") no-repeat;
-  }
-  
-  div.sim-slider-arrow-right {
+    background-image: url("../../images/налево.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sim-slider-arrow-right {
+    width: 30px;
+    height: 50px;
     right: 10px;
     top: 40%;
     display: block;
-    background: url("../../images/Направо.svg") no-repeat;
-  }
-  
-  div.sim-slider-arrow-left:hover {
+    background-image: url("../../images/Направо.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+div.sim-slider-arrow-left:hover {
     opacity: 1.0;
-  }
-  
-  div.sim-slider-arrow-right:hover {
+}
+
+div.sim-slider-arrow-right:hover {
     opacity: 1.0;
-  }
-  
-  div.sim-slider-dots {
+}
+
+div.sim-slider-dots {
     width: 100%;
     height: auto;
     position: absolute;
@@ -67,9 +80,9 @@
     bottom: 0;
     z-index: 3;
     text-align: center;
-  }
-  
-  span.sim-dot {
+}
+
+span.sim-dot {
     width: 10px;
     height: 10px;
     margin: 5px 7px;
@@ -78,4 +91,28 @@
     background-color: #BBB;
     border-radius: 5px;
     cursor: pointer;
-  }
+}
+
+@media screen and (max-width: 400px) {
+    .sim-slider {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .sim-slider {
+        height: 570px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .sim-slider {
+        height: 525px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .sim-slider {
+        height: 480px;
+    }
+}

@@ -1,6 +1,6 @@
 .program__wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-column-gap: 15px;
-    grid-row-gap: 35px;
+    grid-row-gap: 15px;
 }

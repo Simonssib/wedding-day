@@ -7,7 +7,8 @@
     background-image: url(../../images/intro.jpeg);
     background-size: cover;
     max-width: 430px;
-    height: 642px;
+    height: 643px;
+    border: 0;
 }
 
 .header__music {

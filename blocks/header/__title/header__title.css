@@ -1,6 +1,7 @@
 .header__title {
     font-family: 'Farloxy';
     font-size: 70px;
+    font-weight: 900;
     width: 300px;
     text-align: center;
     margin: 40px auto;
