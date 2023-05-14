@@ -1,8 +1,28 @@
 .header__title {
-    font-family: 'Farloxy';
+    font-family: 'Aquarelle', sans-serif;
     font-size: 70px;
-    font-weight: 900;
+    font-weight: 500;
     width: 300px;
     text-align: center;
-    margin: 40px auto;
+    margin: 150px auto 10px 0;
+    position: relative;
+    animation-duration: 5s;
+    animation-name: slidein;
 }
+
+.header__title:last-of-type {
+    margin: 0 20px 0 auto;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 300px;
+    }
+  }

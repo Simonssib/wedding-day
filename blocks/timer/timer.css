@@ -1,13 +1,18 @@
 .timer {
-    height: 680px;
+    height: 530px;
     max-width: 430px;
-    background-image: url(../../images/dombrovskaya.sasha-85.jpg);
+    /*
+    background-image: url(../../images/dombrovskaya.sasha-85-min.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    */
     margin: 0 auto;
     background-position: center;
-    padding-top: 50px;
+    padding-top: 0;
     color: #142300;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .timer__items {
@@ -46,4 +51,14 @@
     content: ':';
     position: absolute;
     right: -15px;
+}
+
+.timer__image {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.timer__icon {
+    max-width: 30%;
+    margin: 10px auto 20px auto;
 }

@@ -1,0 +1,11 @@
+.program__image {
+    max-width: 30%;
+    margin: 60px auto 20px auto;
+
+}
+
+.program {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

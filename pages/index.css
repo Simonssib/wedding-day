@@ -14,13 +14,11 @@
 @import url(../blocks/invite/__text/invite__text.css);
 @import url(../blocks/invite/__title/invite__title.css);
 @import url(../blocks/invite/invite.css);
-@import url(../blocks/dress-code/__color/_1/dress-code__color_1.css);
-@import url(../blocks/dress-code/__color/_2/dress-code__color_2.css);
-@import url(../blocks/dress-code/__color/_3/dress-code__color_3.css);
-@import url(../blocks/dress-code/__color/_4/dress-code__color_4.css);
+@import url(../blocks/dress-code/__color/dress-code__color_1.css);
 @import url(../blocks/dress-code/__colors/dress-code__colors.css);
 @import url(../blocks/dress-code/__text/dress-code__text.css);
 @import url(../blocks/dress-code/__title/dress-code__title.css);
+@import url(../blocks/dress-code/dress-code.css);
 @import url(../blocks/wishes/wishes.css);
 @import url(../blocks/wishes/__text/wishes__text.css);
 @import url(../blocks/wishes/__title/wishes__title.css);
@@ -31,8 +29,11 @@
 @import url(../blocks/program/__times/program__times.css);
 @import url(../blocks/program/__title/program__title.css);
 @import url(../blocks/program/__text/program__text.css);
+@import url(../blocks/program/program.css);
 @import url(../blocks/program/__wrapper/program__wrapper.css);
 @import url(../blocks/slider/slider.css);
 @import url(../blocks/contacts/contacts.css);
 @import url(../blocks/timer/timer.css);
 @import url(../blocks/map/map.css);
+@import url(../blocks/place/place.css);
+@import url(../blocks/footer/footer.css);
