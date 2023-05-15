@@ -12,15 +12,17 @@
     position: relative; 
 }
 
-.header::before {
-    content: "";
+.header:after {
+    content: '';
     position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(233,255,216,0.2);
+    top: 200px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #E7E7C8 100%);
 }
+
 
 .header__music {
     width: 50px;

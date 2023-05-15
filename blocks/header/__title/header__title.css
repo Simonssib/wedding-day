@@ -1,5 +1,5 @@
 .header__title {
-    font-family: 'Aquarelle', sans-serif;
+    font-family: 'Ceremonious', sans-serif;
     font-size: 70px;
     font-weight: 500;
     width: 300px;
@@ -8,6 +8,7 @@
     position: relative;
     animation-duration: 5s;
     animation-name: slidein;
+    z-index: 2;
 }
 
 .header__title:last-of-type {
