@@ -6,8 +6,7 @@
 
 .place__image {
     margin: 20px auto 0 auto;
-    width: 60px;
-    width: 50%;
+    width: 100px;
 }
 
 .place__title {
