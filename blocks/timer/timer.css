@@ -1,12 +1,7 @@
 .timer {
-    height: 530px;
+    height: 643px;
     max-width: 430px;
-    /*
-    background-image: url(../../images/dombrovskaya.sasha-85-min.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    */
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     background-position: center;
     padding-top: 0;
     color: #142300;
@@ -16,8 +11,8 @@
 }
 
 .timer__items {
+    margin-top: 20px;
     display: flex;
-    font-size: 48px;
     justify-content: center;
 }
 
@@ -39,8 +34,8 @@
     margin-right: 10px;
     padding-bottom: 15px;
     text-align: center;
-    font-family: 'Blassville';
-    font-size: 30px;
+    font-family: 'Own Font';
+    font-size: 20px;
 }
 
 .timer__item::before {

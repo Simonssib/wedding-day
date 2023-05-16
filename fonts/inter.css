@@ -1,37 +1,6 @@
 @font-face {
-    font-family: 'Raleway';
-    font-weight: 400;
-    src: url('./Raleway-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Serifiqo';
-    src: url('./ofont.ru_Serifiqo\ 4F\ Free\ Capitals.ttf');
-}
-
-@font-face {
-    font-family: 'Miama';
-    src: url('./miama.otf');
-}
-
-@font-face {
-    font-family: 'Corvetta';
-    src: url(./Corvetta.ttf);
-}
-
-@font-face {
-    font-family: 'Blassville';
-    src: url(./Blassville-demo.ttf);
-}
-
-@font-face {
     font-family: 'Old Standart';
     src: url(./OldStandard-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Farloxy';
-    src: url(./Farloxy.ttf);
 }
 
 @font-face {
@@ -45,6 +14,6 @@
 }
 
 @font-face {
-    font-family: 'Aquarelle';
-    src: url(./Aquarelle.ttf);
+    font-family: 'Own Font';
+    src: url(./ofont.ru_Trajan.ttf);
 }
