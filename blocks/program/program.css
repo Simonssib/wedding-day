@@ -32,7 +32,7 @@
 }
 
 .program__text {
-    line-height: 40px;
+    /*line-height: 0px;*/
     position: relative;
     max-width: 204px;
     font-size: 18px;
@@ -49,6 +49,10 @@
 */
 .program__time-container {
     border-right: 1px solid black;
+}
+
+.program__text-container {
+    padding-top: 10px;
 }
 
 .program__texts {
